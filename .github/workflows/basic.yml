@@ -20,6 +20,7 @@ jobs:
       - run: cat /home/runner/.profile
       - run: echo $PATH
       - run: source /home/runner/.profile
+      - run: echo $PATH
       - run: solana-keygen new
       - name: Install yarn
         run: npm install -g yarn
