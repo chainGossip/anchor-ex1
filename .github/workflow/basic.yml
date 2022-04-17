@@ -15,8 +15,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - run: sh -c "$(curl -sSfL https://release.solana.com/v1.10.8/install)"
-      - name: Install yarn
-      - run: npm install -g yarn
-      - run: npm i -g @project-serum/anchor-cli
-      - run: anchor test
+      # - run: sh -c "$(curl -sSfL https://release.solana.com/v1.10.8/install)"
+      # - name: Install yarn
+      # - run: npm install -g yarn
+      # - run: npm i -g @project-serum/anchor-cli
+      # - run: anchor test
