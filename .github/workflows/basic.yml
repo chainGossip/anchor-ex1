@@ -18,6 +18,7 @@ jobs:
       - run: sh -c "$(curl -sSfL https://release.solana.com/v1.10.8/install)"
       # - run: PATH="/home/runner/.local/share/solana/install/active_release/bin:$PATH"
       - run: cat /home/runner/.profile
+      - run: echo $PATH
       - run: source /home/runner/.profile
       - run: solana-keygen new
       - name: Install yarn
